@@ -65,7 +65,6 @@ public class NotificationChannel implements INotificationChannel {
                     createVibrationPatternFromList(mNotificationChannelProps.getVibrationPattern())
             );
         }
-
         final NotificationManager notificationManager = (NotificationManager) mContext
                 .getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.createNotificationChannel(channel);
